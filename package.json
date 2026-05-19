@@ -1,0 +1,23 @@
+{
+  "name": "arduino-visual-studio",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/web",
+    "apps/server"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace @arduino-visual/web",
+    "dev:server": "npm run dev --workspace @arduino-visual/server",
+    "build:web": "npm run build --workspace @arduino-visual/web",
+    "lint": "npm run lint --workspace @arduino-visual/web && npm run lint --workspace @arduino-visual/server"
+  },
+  "dependencies": {
+    "@tscircuit/core": "^0.0.1231",
+    "@tscircuit/soup-util": "^0.0.41",
+    "circuit-json": "^0.0.423",
+    "circuit-json-to-connectivity-map": "^0.0.23",
+    "circuit-to-svg": "^0.0.345",
+    "tscircuit": "^0.0.1736"
+  }
+}

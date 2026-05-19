@@ -1,0 +1,18 @@
+{
+  "name": "@arduino-visual/server",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "lint": "node --check src/index.js && node --check src/routes/api.js && node --check src/services/arduinoService.js && node --check src/services/codeGenerator.js && node --check src/services/pinMapper.js && node --check src/services/serialMonitorService.js && node --check src/services/wiringService.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "serialport": "^13.0.0"
+  }
+}

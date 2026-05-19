@@ -14,6 +14,11 @@ The system converts text-based interaction into:
 
 The application combines prompt-based programming, visual hardware generation, and real-time Arduino interaction inside a unified interface for physical computing workflows.
 
+## Prototype Video
+
+Watch the interactive prototype demonstration on YouTube:
+
+[Prototype Demonstration](https://www.youtube.com/watch?v=FDccRFuWnQE)
 ---
 
 ## Workflow

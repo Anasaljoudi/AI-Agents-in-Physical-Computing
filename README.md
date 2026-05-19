@@ -1,6 +1,5 @@
 # Prompt-to-Programming for Physical Computing
 
-![Interface Preview](./images/interface.png)
 ![Wiring Visualization](./images/wiring.png)
 
 A full-stack web application for generating Arduino programs and hardware wiring diagrams from natural language prompts.
@@ -32,7 +31,7 @@ Compile + Upload
         ↓
 Monitor Live Output
 ```
-
+![Interface Preview](./images/interface.png)
 ---
 
 ## Features
